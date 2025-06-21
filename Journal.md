@@ -16,12 +16,12 @@ Watching the instructor's videos, I noted the VPC Settings, provided this to LLM
 
 . I had to ask the LLM to refactored the parmeters so that it would not hardcode values and the template is more reusable.
 # Generated Deploy Script
-Using ChatGPT generated a bash script bin/deploy.
+Using ChatGPT generated a bash script `bin/deploy`.
 
 I changed the shebang to work for all OS platforms.
 # Visulization in Infrastructure Composer
 I thought maybe we could visulize our VPC via Infrastructure Composer but its not the best representation.
-
+![](assets/aws_infra_composer.png)
 # Intalling AWS CLI
 In order to deploy via the AWS CLI, we need to install it.
 
@@ -30,6 +30,6 @@ We follow the install instructions: https://docs.aws.amazon.com/cli/latest/userg
 # Deployed Resource to AWS
 This is the resource map of the VPC deployed with CFN.
 
-
+![](assets/VPC_CFT_deployed.png)
 
 
